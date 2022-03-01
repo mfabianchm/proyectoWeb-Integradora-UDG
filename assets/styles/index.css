@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* NAV-SECTION */
+
+.header-nav-section {
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-nav, .carrito-image-nav {
+    width: 60px;
+    cursor: pointer;
+}
+
+.links-nav-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+.links-nav-container a {
+    cursor: pointer;
+}
+
+
+
+
+/* HERO-SECTION */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+.image-container-hero {
+    width: 40%;
+}
+
+.hero-image {
+    width: 90%;
+}
+
+.text-container-hero {
+    width: 40%;
+    padding-left: 50px;
+}
+
+.h1-txt-hero {
+    font-size: 3rem;
+}
+
+.h2-txt-hero {
+    font-size: 2.3rem;
+}
+
+.p-txt-hero {
+    font-size: 1.6rem;
+}
+
+/* NOSOTROS-SECTION */
+
+.nosotros-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.images-container-nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.image-01-nosotros {
+    width: 40%;
+}
+
+.text-container-nosotros {
+    width: 40%;
+}
+
+.h1-txt-nosotros {
+    font-size: 2.8rem;
+}
+
+.p-txt-nosotros {
+    font-size: 1.7rem;
+}
