@@ -7,7 +7,7 @@ body {
 
 .header-nav-section {
     width: 100vw;
-    background-color: aqua;
+    background-color: rgb(211, 141, 184);
     display: flex;
     align-items: center;
     height: 130px;
@@ -34,6 +34,10 @@ body {
 
 .links-nav-container a {
     cursor: pointer;
+}
+
+.links-nav-container a:hover {
+    color: red;
 }
 
 
@@ -103,4 +107,173 @@ body {
 
 .p-txt-nosotros {
     font-size: 1.7rem;
+}
+
+
+
+/* SERVICIOS-SECTION */
+
+.servicios-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    padding: 60px 0px;
+}
+
+.h1-txt-servicios {
+    font-size: 2rem;
+}
+
+.servicios-inner-containers {
+    width: 80%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 15px;
+}
+
+.servicio-itself-container {
+    background-color: rgb(238, 231, 231);
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+/* FOOTER-SECTION */
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.inner-footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 25%;
+}
+
+
+.inner-footer-container a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.inner-footer-container a:hover {
+    color: red;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+
+    /* NAV-SECTION */ 
+
+    .nav-container {
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .nav-container input {
+        display: none;
+    }
+
+    .links-nav-container {
+        display: none;
+    }
+
+    .logo-nav {
+        position: relative;
+        left :30px
+    }
+
+    .carrito-image-nav {
+        position: absolute;
+        right: 40px;
+    }
+
+ 
+
+    /* HERO-SECTION */
+
+    .hero-container {
+        flex-direction: column-reverse;
+    }
+
+    .text-container-hero {
+        width: 100%;
+    }
+
+    .image-container-hero {
+        width: 90%;
+    }
+
+    /* NOSOTROS-SECTION-CONTAINER */ 
+
+    .nosotros-section-container {
+        flex-direction: column;
+    }
+
+    .text-container-nosotros {
+        width: 100%;
+    }
+
+    .image-01-nosotros {
+        display: none;
+    }
+
+
+    /* SERVICIOS-SECTION */ 
+
+    .servicios-section {
+        height: 1000px;
+    }
+
+    .servicios-inner-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+
+    /* FOOTER-SECION */ 
+
+
+    .footer-container {
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .inner-footer-container {
+        width: 90%;
+    }
+
+    .inner-footer-container a {
+        font-size: 1.3rem;
+    }
+
+    .inner-footer-container:last-child {
+        display: none;
+    }
 }
