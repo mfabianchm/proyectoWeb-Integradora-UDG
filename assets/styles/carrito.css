@@ -143,6 +143,10 @@ body {
     background-color: red;
 }
 
+.regresar-inicio-link {
+    padding: 30px;
+}
+
 
 /* FOOTER SECTION */  
 
@@ -220,9 +224,7 @@ body {
 
     /* CARRITO-SECTION */
 
-    .carrito-section-container {
-       
-    }
+
 
     .article-image {
         height: 40%;
@@ -259,6 +261,11 @@ body {
     .payment-delete-buttons-container {
         justify-content: space-around;
         width: 100%;
+    }
+
+
+    .regresar-inicio-link {
+        padding: 30px;
     }
 
 
